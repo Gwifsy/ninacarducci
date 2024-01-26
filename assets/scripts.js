@@ -13,3 +13,7 @@ $(document).ready(function() {
         tagsPosition: 'top'
     });
 });
+
+// document.addEventListener("DOMContentLoaded", function() {
+// const gallery = document.querySelector(".gallery");
+// })
