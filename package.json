@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "purgecss": "^5.0.0"
+  },
+  "scripts": {
+    "build:css": "purgecss --config purgecss.config.js -o  assets/bootstrap/"
+  }
+}
