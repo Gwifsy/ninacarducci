@@ -1,5 +1,5 @@
 module.exports = {
-    content: ['index.html','./assets/**/*.html', './assets/**/*.js','./assets/bootstrap/**/*.js'],
+    content: ['index.html', './assets/**/*.js', './assets/bootstrap/**/*.js'],
     css: ['./assets/bootstrap/bootstrap.css'],
     defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || [],
     safelist: [
@@ -21,6 +21,5 @@ module.exports = {
         'mg-prev',
         'lightboxImage',
         'mg-next',
-      ],
-  };
-  
+    ],
+};
